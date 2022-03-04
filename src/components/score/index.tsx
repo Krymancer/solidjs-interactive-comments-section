@@ -20,11 +20,11 @@ const Score: Component<Props> = (props) => {
   return (
     <div class="score-container">
       <div class="score-button" onclick={increment}>
-        <img src="src/assets/icon-plus.svg" alt="plus" />
+        <img src="/assets/icon-plus.svg" alt="plus" />
       </div>
       <span>{total}</span>
       <div class="score-button" onclick={decrement}>
-        <img src="src/assets/icon-minus.svg" alt="minus" />
+        <img src="/assets/icon-minus.svg" alt="minus" />
       </div>
     </div>
   );
