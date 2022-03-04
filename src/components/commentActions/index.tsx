@@ -13,9 +13,9 @@ interface Props {
 
 import { state, setState } from "../../store";
 
-const REPLY_ICON_SRC = "./src/assets/icon-reply.svg";
-const EDIT_ICON_SRC = "./src/assets/icon-edit.svg";
-const DELETE_ICON_SRC = "./src/assets/icon-delete.svg";
+const REPLY_ICON_SRC = "/assets/icon-reply.svg";
+const EDIT_ICON_SRC = "/assets/icon-edit.svg";
+const DELETE_ICON_SRC = "/assets/icon-delete.svg";
 
 const CommentActions: Component<Props> = (props) => {
   const [getModalState, setModalState] = createSignal<boolean>(false);
