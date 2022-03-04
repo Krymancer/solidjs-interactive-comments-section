@@ -1,0 +1,26 @@
+.comment-button {
+  background-color: var(--moderate-blue);
+  border: none;
+  border-radius: 5px;
+  color: var(--white);
+  padding: 0.5em;
+  cursor: pointer;
+  margin-left: 1em;
+  text-transform: uppercase;
+  height: 2.5em;
+  align-self: flex-start;
+}
+
+.comment-button:hover {
+  background-color: var(--light-grayish-blue);
+}
+
+.danger {
+  background-color: var(--soft-red);
+  width: 50%;
+}
+
+.cancel {
+  background-color: var(--grayish-blue);
+  width: 50%;
+}

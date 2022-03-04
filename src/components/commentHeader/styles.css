@@ -1,0 +1,47 @@
+.comment-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 2em;
+  height: 2.5em;
+  color: var(--grayish-blue);
+  margin-bottom: 0.5em;
+  width: 100%;
+  user-select: none;
+}
+
+.header-avatar-container {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  margin-right: 1em;
+  color: var(--dark-blue);
+}
+
+.header-avatar-image {
+  width: 2em;
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+.header-comment-date {
+  min-width: 10em;
+}
+
+.header-author-mark {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  background-color: var(--moderate-blue);
+  color: var(--white);
+
+  height: 1em;
+  line-height: 1em;
+
+  padding: 0.2em;
+  font-size: 0.9em;
+
+  border-radius: 1px;
+
+  margin-left: 0.5em;
+}

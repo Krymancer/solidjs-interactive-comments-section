@@ -1,0 +1,24 @@
+.comment-reply-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.reply-comment-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.comment-reply-container > div {
+  margin: 0.5em;
+  margin-right: 0;
+}
+
+.comment-reply-before {
+  position: relative;
+  width: 8em;
+  border-right: 2px solid var(--light-gray);
+  margin-right: 2em;
+  margin-bottom: -1em; /* to make the border overlap the comment */
+}

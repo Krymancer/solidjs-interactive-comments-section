@@ -1,0 +1,27 @@
+.comment-content {
+  display: flex;
+  flex-direction: row;
+  color: var(--grayish-blue);
+}
+
+.reply-comment-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comment-content-textarea {
+  padding: 0.5em;
+  margin: 1em 0 1em;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: var(--moderate-blue);
+  overflow: hidden;
+  resize: none;
+  width: 100%;
+  border-radius: 5px;
+  color: var(--grayish-blue);
+  box-sizing: border-box;
+}
+
+.comment-content-textarea:focus {
+  outline: none;
+}

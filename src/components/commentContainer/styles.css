@@ -1,0 +1,14 @@
+.comment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  background-color: var(--white);
+  border-radius: 10px;
+  min-height: 5em;
+  width: 100%;
+}
+
+.comment-container > * {
+  margin: 1em;
+}

@@ -1,0 +1,28 @@
+.comment-actions-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  user-select: none;
+  justify-self: flex-end;
+}
+
+.comment-actions-container > * {
+  margin: 0.5em;
+}
+
+.coment-action-item {
+  display: flex;
+  align-items: center;
+  height: 1em;
+  color: var(--moderate-blue);
+
+  cursor: pointer;
+}
+
+.coment-action-item > * {
+  margin: 0.5em;
+}
+
+.comment-delete {
+  color: var(--soft-red);
+}

@@ -1,0 +1,6 @@
+.comment-tree-container {
+  max-width: 60em;
+}
+.comment-tree-container > * {
+  margin: 1em;
+}
